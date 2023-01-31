@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+
+
+}
+body{
+    font-family:  Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 26px 56px;
+    position: absolute;
+    width: 90%;
+    z-index: 5;
+
+}
+header .logo svg{
+    fill: #e50914;
+    height: 37px;
+    
+
+}
+header div+div {
+    text-align: right;
+    position: relative;
+    left: 37%;
+
+}
+header a.button{
+    background-color: #e50914;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 17px;
+    border-radius: 3px;
+}
+header a.logo{
+    display: block;
+
+}
+header select{
+
+    background: transparent;
+    color: #fff;
+    padding: 9px 0px 7px ;
+    font-weight: bold;
+    margin-right: 10px
+    
+    
+}
+div.spash {
+    position: relative;
+
+}
+div.spash div.gradient{
+    linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 40%,transparent 75%,rgba(0,0,0,.8))
+
+}
+div.spash div.background img{
+    max-width: 100%;
+    opacity: 0.6;
+}
+div.spash div.content{
+    position: absolute;
+    inset: 0;
+    top: 20%;
+    
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+div.spash h1{
+    font-size: 3.125rem;
+}
+div.spash h3{
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+div.spash input{
+    padding: 10px;
+    font-size: 1.2rem;
+}
+div.spash button{
+    padding: 11px;
+    padding-top: 15px;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+}
+section{
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 46px;
+    padding: 70px 35px;
+    border-top: 8px solid #222;
+
+}
+section div.texts h1{
+    font-size: 3.125rem;
+    margin-top: 40px;
+    
+
+}
+section div.texts p{
+    font-size: 1.625rem;
+}
+.media1 img{
+    width: 100%;
+    
+}
+.media1 video{
+    width: 30%;
+    position: absolute;
+    left: 59%;
+    padding-top: 7.5%;
+    max-width: 100%;
+}
+section:nth-child(even) div.texts{
+    order: 2;
+
+}
+section div.download{
+    border: 2px solid #666;
+    border-radius: 15px;
+    padding: 10px;
+    height: 95px;
+    display: grid;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #000;
+    position: relative;
+    bottom: 25%;
+    
+    grid-template-columns: max-content 1fr max-content;
+}
+section div.download img{
+    height: 75px;
+    width: auto;
+}
+.media3 img{
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    
+}
+.media3 video{
+    width: 28%;
+    position: absolute;
+    left: 60.5%;
+    padding-top: 4%;
+    max-width: 100%;
+}
+.last{
+    border-bottom: 15px solid #222;
+}
+div.faq{
+    padding: 70px 30px;
+}
+div.faq h1{
+    font-size: 3.125rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+div.questions{
+    max-width: 635px;
+    margin: 0 auto;
+}
+div.question{
+    position: relative;
+    background-color: #303030;
+    
+}
+div.header svg{
+    position: absolute;
+    height: 35px;
+    left: 90%;
+    
+}
+
+
+
+
+div.question div.header{
+    padding: 20px 30px ;
+    border-bottom: 4px solid #000;
+
+    cursor: pointer
+    
+    
+}
+div.header{
+    font-size: large;
+    
+}
+div.finaldiv{
+    height: 200px;
+    width: 100%;
+    border-bottom: 8px solid #222;
+}
+div.finaldiv h4{
+    text-align: center;
+    
+}
+.form{
+    position: relative;
+    left: 35%;
+    
+    
+    
+}
+.email{
+    margin-top: 10px;
+    
+    height: 43px;
+    width: 250px;
+    font-size: larger;
+    border-radius: 4px;
+    padding-bottom: 4px;
+    
+}
+.button{
+    margin-top: 10px;
+    height: 45px;
+    width: 100px; 
+    background-color: #e50914;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 4px;
+
+    
+}
+.label{
+    position: relative;
+    color: gray;
+    left: 7%;
+}
+div.other{
+    height: 300px;
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+div.other div.inside{
+    height: 250px;
+    width: 25%;
+    float: left;
+    padding-top: 50px;
+}
+.img5{
+    position: relative;
+    left: 60%;
+    
+}
+.img4{
+    position: relative;
+    left: 68.5%;
+}
+.img3{
+    position: relative;
+    left: 66%;
+}
+.img2{
+    position: relative;
+    left: 53%;
+}
+.img1{
+    position: relative;
+    left: 73%;
+}
+
+
+    
+    
+
+
